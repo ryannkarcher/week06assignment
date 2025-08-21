@@ -8,7 +8,7 @@ public class Card {
 	//create int value and string name to be assigned later
 
     public Card(int value, String name) {
-        this.value = value;
+        this.value = value; 
         this.name = name;
     } //made a constructor to create a new Card object; value and name are the arguments
     	//value and name are assigned with "this." keyword

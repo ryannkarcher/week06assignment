@@ -9,7 +9,7 @@ public class Deck {
 
    //create a constructor to populate the deck with 52 cards
     public Deck() { 
-        cards = new ArrayList<>();
+        cards = new ArrayList<>(); 
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         String[] ranks = {"Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"};
         //split into suits and ranks (symbols and numbers)

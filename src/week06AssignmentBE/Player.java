@@ -21,7 +21,7 @@ public class Player {
     public void describe() {
         System.out.println("Player: " + name + " | Score: " + score);
         System.out.println("Hand:");
-        for (Card card : hand) {
+        for (Card card : hand) { 
             card.describe();
         }
     }

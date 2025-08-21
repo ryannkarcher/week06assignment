@@ -27,7 +27,7 @@ public class App {
         for (int i = 0; i < 26; i++) {
             System.out.println("Round " + (i + 1) + ":");
             Card card1 = player1.flip();
-            Card card2 = player2.flip();
+            Card card2 = player2.flip(); 
 
             //printing offset: the name with the getter getName for both players
             System.out.print("  " + player1.getName() + " flips: ");
