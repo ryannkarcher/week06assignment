@@ -20,7 +20,7 @@ public class App {
                 player2.draw(deck); //player2 gets odd numbered carsd
             }
         }
-
+ 
         // play the game for 26 rounds, actually starting the game
         //use for loop to run 26 times and print out the round number
         System.out.println("\n--- Starting the Game! ---\n");

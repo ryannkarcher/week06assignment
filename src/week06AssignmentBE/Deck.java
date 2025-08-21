@@ -8,7 +8,7 @@ public class Deck {
     private List<Card> cards;
 
    //create a constructor to populate the deck with 52 cards
-    public Deck() {
+    public Deck() { 
         cards = new ArrayList<>();
         String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         String[] ranks = {"Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"};

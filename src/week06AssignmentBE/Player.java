@@ -31,17 +31,17 @@ public class Player {
     public Card flip() {
         if (hand.isEmpty()) {
             return null;
-        }
+        } 
         return hand.remove(0);
     }
     
-    //draw method: dck as argument and object type.
+    //draw method: deck as argument and object type.
     //to remove top card from deck and add to hand in play
     public void draw(Deck deck) {
         Card card = deck.draw();
         if (card != null) {
             hand.add(card);
-        }
+        } //add card if deck is not empty
     }
 
     //method to add points to the player's score

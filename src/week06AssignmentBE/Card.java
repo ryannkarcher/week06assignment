@@ -2,8 +2,8 @@ package week06AssignmentBE;
 import java.util.Objects;
 
 public class Card { 
-
-    private int value; // numbered, 1-13
+ 
+    private int value; // numbered, 2-14
     private String name; //name of the card; king, etc
 	//create int value and string name to be assigned later
 
@@ -40,7 +40,7 @@ public class Card {
         if (o == null || getClass() != o.getClass()) return false;
         Card card = (Card) o;
         return value == card.value && Objects.equals(name, card.name);
-    } //section handles the null; shows that Card objects are equal if they have the same value and assigned name.
+    } //section handles the null results; shows that Card objects are equal if they have the same value and assigned name.
 
     //method of hash to create a code for objects with the same value and name.
     public int hashCode() {
